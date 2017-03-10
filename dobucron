@@ -1,0 +1,42 @@
+#!/bin/bash
+bdate=$(date |awk '{print $2}')
+btime=$(date |awk '{print $3}')
+count=0
+wbd=$(echo "/home/$USER/backups/wbd")
+if [ ! -f "/home/$USER/backupdefs" ];then
+        exit 1
+else
+	if [ -d "/home/$USER/backups" ];then
+        	ftc=$(cat /home/$USER/backupdefs)
+        	tar -czf /home/$USER/backups/backup_${bdate}_${btime}.tar.gz $ftc 2> /dev/null
+		ls -ltc |tac |awk '{print $9}' > $wbd
+		for bups in $(cat $wbd)
+		do
+			count=$[ $count + 1 ]
+		done
+		if [ "$count" -gt "10" ];then
+			until [ "$count" -eq "10" ]
+			do
+				for rem in $(cat $wbd)
+				do
+					rm -f "/home/$USER/backups/$rem"
+					count=$[ $count - 1 ]
+					if [ "$count" -eq "10" ];then
+						break
+					fi
+				done
+				rm -f "$wbd"
+			done
+		else
+			if [ -f "$wbd" ];then
+				rm -f "$wbd"
+			fi
+		fi
+				
+	else
+		mkdir /home/$USER/backups
+		ftc=$(cat /home/$USER/backupdefs)
+		tar -czf /home/$USER/backups/backup_${bdate}_${btime}.tar.gz $ftc 2> /dev/null
+	fi
+fi
+
