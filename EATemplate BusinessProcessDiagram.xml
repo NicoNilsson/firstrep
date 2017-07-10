@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="D499F422-E" name="BusinessProcessDiagram" version="1.0" notes="BusinessProcessDiagram"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Business Process Diagram" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EATemplate::EAActivity(UML::Activity)" type="" description="" unit="" values="" default="Activity"/>
+					<Tag name="EATemplate::EAControlFlow(UML::ControlFlow)" type="" description="" unit="" values="" default="Control Flow"/>
+					<Tag name="EATemplate::EADecision(UML::Decision)" type="" description="" unit="" values="" default="Decision"/>
+					<Tag name="EATemplate::EADependency(UML::Dependency)" type="" description="" unit="" values="" default="Dependency"/>
+					<Tag name="EATemplate::EAEntryPoint(UML::EntryPoint)" type="" description="" unit="" values="" default="Start"/>
+					<Tag name="EATemplate::EAExitpoint(UML::ExitPoint)" type="" description="" unit="" values="" default="End"/>
+					<Tag name="EATemplate::EAGate(UML::Decision)" type="" description="" unit="" values="" default="Gate"/>
+					<Tag name="EATemplate::EAInformationFlow(UML::InformationFlow)" type="" description="" unit="" values="" default="Information Flow"/>
+					<Tag name="EATemplate::EAMilestone(UML::Decision)" type="" description="" unit="" values="" default="Milestone"/>
+					<Tag name="EATemplate::EANote(UML::Note)" type="" description="" unit="" values="" default="Note"/>
+					<Tag name="EATemplate::EAOperationStepBPMN(UML::Class)" type="" description="" unit="" values="" default="Operation Step"/>
+					<Tag name="EATemplate::EAPartition(UML::ActivityPartition)" type="" description="" unit="" values="" default="Partition"/>
+					<Tag name="EATemplate::EAProcessStep(UML::Class)" type="" description="" unit="" values="" default="Process Step"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

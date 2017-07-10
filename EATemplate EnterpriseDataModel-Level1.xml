@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="23D5283C-C" name="EnterpriseDataModel-Level1" version="1.0" notes="EnterpriseDataModel-Level1"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Enterprise Data model - Level 1" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EATemplate::EAClass(UML::Class)" type="" description="" unit="" values="" default="Class"/>
+					<Tag name="EATemplate::EAContract(UML::Association)" type="" description="" unit="" values="" default="Association"/>
+					<Tag name="EATemplate::EAGeneralization(UML::Generalization)" type="" description="" unit="" values="" default="Generalization"/>
+					<Tag name="EATemplate::EANote(UML::Note)" type="" description="" unit="" values="" default="Note"/>
+					<Tag name="EATemplate::EARealization(UML::Realization)" type="" description="" unit="" values="" default="Realization"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

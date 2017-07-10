@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="A509A306-5" name="ApplicationLandscapeDiagram" version="1.0" notes="ApplicationLandscapeDiagram"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Application Landscape Diagram" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EATemplate::EAComponent(UML::Component)" type="" description="" unit="" values="" default="Component"/>
+					<Tag name="EATemplate::EADiagramFrame(UML::DiagramFrame)" type="" description="" unit="" values="" default="Diagram Frame"/>
+					<Tag name="EATemplate::EAInformationFlow(UML::InformationFlow)" type="" description="" unit="" values="" default="Information Flow"/>
+					<Tag name="EATemplate::EANote(UML::Note)" type="" description="" unit="" values="" default="Note"/>
+					<Tag name="EATemplate::EAPackage(UML::Package)" type="" description="" unit="" values="" default="Package"/>
+					<Tag name="EATemplate::EAPackagingComponent(UML::PackagingComponent)" type="" description="" unit="" values="" default="Packaging Component"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="E4F425B6-F" name="BusinessStrategyMap" version="1.0" notes="BusinessStrategyMap"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Business Strategy Map" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EATemplate::EAActivity(UML::Activity)" type="" description="" unit="" values="" default="Activity"/>
+					<Tag name="EATemplate::EAAssociation(UML::Association)" type="" description="" unit="" values="" default="Association"/>
+					<Tag name="EATemplate::EABusinessCapability(UML::Class)" type="" description="" unit="" values="" default="Business Capability"/>
+					<Tag name="EATemplate::EACapabilityAM(UML::Class)" type="" description="" unit="" values="" default="Capability"/>
+					<Tag name="EATemplate::EADriver(UML::Class)" type="" description="" unit="" values="" default="Driver"/>
+					<Tag name="EATemplate::EADriverAM(UML::Class)" type="" description="" unit="" values="" default="Business Driver"/>
+					<Tag name="EATemplate::EAGoal(UML::Class)" type="" description="" unit="" values="" default="Goal"/>
+					<Tag name="EATemplate::EAGoalAM(UML::Class)" type="" description="" unit="" values="" default="Strategic Goal"/>
+					<Tag name="EATemplate::EANote(UML::Note)" type="" description="" unit="" values="" default="Note"/>
+					<Tag name="EATemplate::EAObjective(UML::Class)" type="" description="" unit="" values="" default="Objective"/>
+					<Tag name="EATemplate::EAOutcomeAM(UML::Class)" type="" description="" unit="" values="" default="Business Outcome"/>
+					<Tag name="EATemplate::EARealization(UML::Realization)" type="" description="" unit="" values="" default="Realization"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
